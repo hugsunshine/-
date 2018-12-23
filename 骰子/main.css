@@ -1,0 +1,59 @@
+#all{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.dot{
+    width: 30px;
+    height: 30px;
+    background: #000;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.dot1{
+    align-self: flex-start;
+}
+
+.dot2{
+    align-self: flex-end;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
